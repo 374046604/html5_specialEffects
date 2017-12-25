@@ -6,7 +6,7 @@
 
     function init() {
         initStages();
-        initForm();
+        //initForm();
         initText();
         initCircles();
         animate();
@@ -80,12 +80,12 @@
         stage.canvas.height = window.innerHeight;
     }
 
-    function initForm() {
-        form = document.getElementById('form');
-        form.style.top = offsetY + 200 + 'px';
-        form.style.left = offsetX + 'px';
-        input = document.getElementById('inputText');
-    }
+//  function initForm() {
+//      form = document.getElementById('form');
+//      form.style.top = offsetY + 200 + 'px';
+//      form.style.left = offsetX + 'px';
+//      input = document.getElementById('inputText');
+//  }
 
     function initText() {
         text = new createjs.Text("t", "80px 'Source Sans Pro'", "#eee");
